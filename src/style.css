@@ -1,3 +1,10 @@
+body {
+  min-width: 700px;
+  max-width: 850px;
+  display: block;
+  margin: 0 auto;
+}
+
 .slideshow-container {
   margin: 30px;
 }
@@ -58,4 +65,8 @@
 
 img {
   width: 200px;
+}
+
+iframe {
+  border-radius: 2%;
 }
