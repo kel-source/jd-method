@@ -3,6 +3,12 @@ body {
   max-width: 850px;
   display: block;
   margin: 0 auto;
+  background-color: #292c33;
+}
+
+h1 {
+  font-size: 100px;
+  margin-bottom: 10px;
 }
 
 .slideshow-container {
@@ -11,6 +17,20 @@ body {
 
 .mySlides {
   text-align: center;
+  color: white;
+}
+
+.intro {
+  margin-top: 100px;
+}
+
+.nomad-link {
+  text-decoration: none;
+  color: powderblue;
+}
+
+.nomad-link:hover {
+  text-decoration: underline;
 }
 
 .directionals {
