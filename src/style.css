@@ -5,6 +5,7 @@ body {
   margin: 0 auto;
   background-color: #292c33;
   font-size: smaller;
+  font-family: "Fjalla One", sans-serif;
 }
 
 h1 {
@@ -17,6 +18,12 @@ h6 {
   font-size: xx-small;
   color: lightgray;
   margin-top: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
 }
 
 .contact h2 {
