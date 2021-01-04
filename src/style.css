@@ -58,12 +58,12 @@ p {
 
 .link {
   text-decoration: none;
-  color: powderblue;
+  color: #5fa1d3;
 }
 
 .link:hover {
   text-decoration: underline;
-  color: powderblue;
+  color: #5fa1d3;
 }
 
 .directionals {
@@ -96,7 +96,7 @@ p {
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
-  color: powderblue;
+  color: #5fa1d3;
 }
 
 .all-dots {
