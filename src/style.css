@@ -1,6 +1,6 @@
 body {
-  min-width: 700px;
-  max-width: 850px;
+  min-width: 75%;
+  max-width: 90%;
   display: block;
   margin: 0 auto;
   background-color: #292c33;
@@ -66,12 +66,17 @@ p {
   color: #5fa1d3;
 }
 
-.directionals {
-  position: absolute;
+.slides {
+  margin-bottom: 15%;
+}
+
+.navigation {
+  position: fixed;
+  top: 90%;
   width: 98%;
   left: 8px;
   right: 8px;
-  bottom: 5px;
+  background-color: #292c33;
 }
 
 .prev,
