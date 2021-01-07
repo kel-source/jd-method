@@ -126,6 +126,18 @@ p {
 img {
   width: 200px;
   border-radius: 2%;
+  margin: 2px;
+}
+
+.imgLink {
+  border: none;
+  background: none;
+  padding: 0%;
+}
+
+.imgLink:active img,
+.imgLink:focus img {
+  width: 500px;
 }
 
 iframe {
