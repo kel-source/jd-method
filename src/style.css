@@ -1,6 +1,6 @@
 body {
-  min-width: 75%;
-  max-width: 90%;
+  min-width: 50em;
+  max-width: 90em;
   display: block;
   margin: 0 auto;
   background-color: #292c33;
@@ -38,6 +38,7 @@ p {
 .mySlides {
   text-align: center;
   color: white;
+  margin-bottom: 6em;
 }
 
 .intro {
@@ -67,14 +68,9 @@ p {
   color: #5fa1d3;
 }
 
-.slides {
-  margin-bottom: 15%;
-}
-
-.navigation {
+footer {
   position: fixed;
   top: 90%;
-  width: 98%;
   left: 8px;
   right: 8px;
   bottom: 0px;
@@ -145,4 +141,6 @@ img {
 iframe {
   border-radius: 2%;
   margin-bottom: 10px;
+  width: 550px;
+  height: 350px;
 }
