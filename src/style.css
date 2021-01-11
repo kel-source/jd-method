@@ -1,6 +1,6 @@
 body {
   min-width: 50em;
-  max-width: 90em;
+  max-width: 100em;
   display: block;
   margin: 0 auto;
   background-color: #292c33;
@@ -122,7 +122,7 @@ footer {
 }
 
 img {
-  width: 200px;
+  width: 400px;
   border-radius: 2%;
   margin: 2px;
 }
