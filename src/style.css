@@ -12,6 +12,7 @@ body {
   background-color: #292c33;
   color: var(--primary-color);
   font-family: var(--content-font);
+  overflow-x: hidden;
 }
 h1,
 h2 {
@@ -49,6 +50,10 @@ hr {
 }
 .contact-icon:hover {
   color: inherit;
+}
+
+.col-wrap {
+  margin: 3%;
 }
 
 @media (min-width: 992px) {
