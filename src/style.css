@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 120px;
 }
 
 body {
@@ -26,6 +27,9 @@ h2,
 
 hr {
   background-color: var(--primary-color);
+}
+a:hover {
+  text-decoration: none;
 }
 
 .logo {
@@ -65,5 +69,11 @@ hr {
   }
   .title {
     font-size: 75px;
+  }
+
+  .side-nav {
+    padding-top: 50px;
+    position: fixed;
+    float: left;
   }
 }
