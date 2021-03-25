@@ -1,146 +1,33 @@
+:root {
+  --heading-font: "Fjalla One", sans-serif;
+  --content-font: "Roboto Condensed", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  min-width: 50em;
-  max-width: 100em;
-  display: block;
-  margin: 0 auto;
   background-color: #292c33;
-  font-size: smaller;
-  font-family: "Fjalla One", sans-serif;
+  color: azure;
+  font-family: var(--content-font);
 }
-
+h1,
+h2 {
+  font-family: var(--heading-font);
+}
 h1 {
-  font-size: 100px;
-  margin-bottom: 10px;
+  font-size: 10vw;
+}
+h2 {
+  font-size: 5vw;
 }
 
-h6 {
-  font-weight: lighter;
-  font-size: xx-small;
-  color: lightgray;
-  margin-top: 10px;
-  font-family: "Roboto Condensed", sans-serif;
-  text-align: center;
-}
-
-p {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 20px;
-}
-
-.contact h2 {
-  margin-bottom: 150px;
-}
-
-.slideshow-container {
-  margin: 30px;
-}
-
-.mySlides {
-  text-align: center;
-  color: white;
-  margin-bottom: 6em;
-}
-
-.intro {
-  margin-top: 100px;
-}
-
-.contact {
-  margin-top: 100px;
-}
-
-.contact-me {
-  text-align: center;
-  width: 150px;
-}
-
-.twitter {
-  border-radius: 10px;
-}
-
-.link {
-  text-decoration: none;
-  color: #5fa1d3;
-}
-
-.link:hover {
-  text-decoration: underline;
-  color: #5fa1d3;
-}
-
-footer {
-  position: fixed;
-  top: 90%;
-  left: 8px;
-  right: 8px;
-  bottom: 0px;
-  background-color: #292c33;
-}
-
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  width: auto;
-  padding: 16px;
-  color: black;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-  text-decoration: none;
-  color: #5fa1d3;
-}
-
-.all-dots {
-  text-align: center;
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.active,
-.dot:hover {
-  background-color: #717171;
-}
-
-img {
-  width: 400px;
-  border-radius: 2%;
-  margin: 2px;
-}
-
-.imgLink {
-  border: none;
-  background: none;
-  padding: 0%;
-}
-
-.imgLink:active img,
-.imgLink:focus img {
-  width: 600px;
-}
-
-iframe {
-  border-radius: 2%;
-  margin-bottom: 10px;
-  width: 550px;
-  height: 350px;
+@media (min-width: 992px) {
+  h1 {
+    font-size: 120px;
+  }
+  h2 {
+    font-size: 50px;
+  }
 }
