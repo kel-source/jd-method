@@ -1,6 +1,7 @@
 :root {
   --heading-font: "Fjalla One", sans-serif;
   --content-font: "Roboto Condensed", sans-serif;
+  --primary-color: white;
 }
 
 html {
@@ -9,7 +10,7 @@ html {
 
 body {
   background-color: #292c33;
-  color: azure;
+  color: var(--primary-color);
   font-family: var(--content-font);
 }
 h1,
@@ -21,6 +22,30 @@ h1 {
 }
 h2 {
   font-size: 5vw;
+}
+hr {
+  background-color: var(--primary-color);
+}
+
+.logo {
+  content: url("/media/logo/logo.png");
+  background-repeat: no-repeat;
+  width: 40px;
+}
+.logo:hover {
+  content: url("/media/logo/active-logo.png");
+  background-repeat: no-repeat;
+  width: 40px;
+}
+.container {
+  margin-top: 120px;
+}
+
+.contact-icon {
+  color: var(--primary-color);
+}
+.contact-icon:hover {
+  color: inherit;
 }
 
 @media (min-width: 992px) {
