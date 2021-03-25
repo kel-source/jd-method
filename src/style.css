@@ -17,12 +17,12 @@ h1,
 h2 {
   font-family: var(--heading-font);
 }
-h1 {
-  font-size: 10vw;
-}
-h2 {
+h2,
+.title {
   font-size: 5vw;
+  text-align: center;
 }
+
 hr {
   background-color: var(--primary-color);
 }
@@ -41,6 +41,9 @@ hr {
   margin-top: 120px;
 }
 
+.hero h1 {
+  font-size: 10vw;
+}
 .contact-icon {
   color: var(--primary-color);
 }
@@ -49,10 +52,13 @@ hr {
 }
 
 @media (min-width: 992px) {
-  h1 {
+  .hero h1 {
     font-size: 120px;
   }
-  h2 {
+  .hero h2 {
     font-size: 50px;
+  }
+  .title {
+    font-size: 75px;
   }
 }
