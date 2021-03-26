@@ -24,7 +24,6 @@ h2,
   font-size: 5vw;
   text-align: center;
 }
-
 hr {
   background-color: var(--primary-color);
 }
@@ -49,6 +48,19 @@ a:hover {
 .hero h1 {
   font-size: 10vw;
 }
+.card-img {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.card-img-overlay {
+  transition: 0.5s ease;
+  opacity: 0;
+  padding: 0px;
+}
+.card:hover .card-img-overlay {
+  opacity: 1;
+}
+
 .contact-icon {
   color: var(--primary-color);
 }
