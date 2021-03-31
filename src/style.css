@@ -90,6 +90,14 @@ footer {
   margin: 3%;
 }
 
+@media (max-width: 420px) {
+  .skills {
+    display: none;
+  }
+  .card:hover .card-img-overlay {
+    opacity: 0;
+  }
+}
 @media (min-width: 992px) {
   .hero h1 {
     font-size: 120px;
