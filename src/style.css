@@ -61,6 +61,10 @@ a:hover {
   opacity: 1;
 }
 
+.skills-img {
+  width: 5vw;
+}
+
 .contact-icon {
   color: var(--primary-color);
 }
