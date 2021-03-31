@@ -10,14 +10,16 @@ html {
 }
 
 body {
-  background-color: #292c33;
+  background-color: rgb(41, 44, 51);
   color: var(--primary-color);
   font-family: var(--content-font);
   overflow-x: hidden;
 }
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--heading-font);
+  font-weight: bold;
 }
 h2,
 .title {
@@ -29,6 +31,9 @@ hr {
 }
 a:hover {
   text-decoration: none;
+}
+footer {
+  background-color: white;
 }
 
 .logo {
@@ -61,15 +66,24 @@ a:hover {
   opacity: 1;
 }
 
-.skills-img {
-  width: 5vw;
+.skills img {
+  width: 8vw;
+}
+.skills p {
+  font-size: 1.5vw;
 }
 
-.contact-icon {
-  color: var(--primary-color);
+.contact-link {
+  color: black;
 }
-.contact-icon:hover {
-  color: inherit;
+.linkedin:hover {
+  color: #0a66c2;
+}
+.email:hover {
+  color: #bf211e;
+}
+.twitter:hover {
+  color: #1da1f2;
 }
 
 .col-wrap {
@@ -85,6 +99,13 @@ a:hover {
   }
   .title {
     font-size: 75px;
+  }
+
+  .skills img {
+    width: 100px;
+  }
+  .skills p {
+    font-size: 20px;
   }
 
   .side-nav {
