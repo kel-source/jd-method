@@ -7,6 +7,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 120px;
+  overflow-x: hidden;
 }
 
 body {
@@ -58,6 +59,9 @@ footer {
 .page-title {
   margin-top: 17vh;
 }
+.col-wrap {
+  padding: 3%;
+}
 
 .hero h1 {
   font-size: 10vw;
@@ -94,8 +98,16 @@ footer {
   color: #1da1f2;
 }
 
-.col-wrap {
-  padding: 3%;
+.hover-img {
+  transition: transform 0.2;
+}
+.hover-img:hover {
+  transform: scale(1.75);
+  position: relative;
+  z-index: 100;
+}
+.img-r:hover {
+  right: 5vw;
 }
 
 .open-source-link,
