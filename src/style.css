@@ -86,6 +86,10 @@ footer {
 .side-nav a {
   text-decoration: none;
 }
+.project-icon {
+  width: 25px;
+  margin-bottom: 10px;
+}
 
 .contact-link {
   color: black;
