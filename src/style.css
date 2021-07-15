@@ -29,15 +29,13 @@ h2,
 hr {
   background-color: var(--primary-color);
 }
-a:hover {
-  text-decoration: none;
-}
 
 h6 {
-  font-weight: lighter;
   font-size: xx-small;
-  color: var(--primary-color);
+  margin-top: 10px;
+  font-family: "Roboto Condensed", sans-serif;
   text-align: right;
+  color: var(--primary-color);
   margin-right: 10px;
 }
 
@@ -85,6 +83,10 @@ footer {
   font-size: 1.5vw;
 }
 
+.side-nav a {
+  text-decoration: none;
+}
+
 .contact-link {
   color: black;
 }
@@ -111,8 +113,14 @@ footer {
 }
 
 .open-source-link,
-.open-source-link:hover {
+.open-source-link:hover,
+.kelcodes-link,
+.kelcodes-link:hover {
   color: #3edce0;
+}
+.fa-spider:hover {
+  transition: 1s;
+  transform: rotateX(180deg);
 }
 
 @media (max-width: 420px) {
