@@ -86,9 +86,13 @@ footer {
 .side-nav a {
   text-decoration: none;
 }
+
 .project-icon {
-  width: 25px;
+  height: 25px;
   margin-bottom: 10px;
+}
+.project-year {
+  line-height: 5px;
 }
 
 .contact-link {
