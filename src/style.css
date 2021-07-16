@@ -29,6 +29,10 @@ h2,
 hr {
   background-color: var(--primary-color);
 }
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
 
 h6 {
   font-size: xx-small;
