@@ -152,4 +152,10 @@ footer {
     max-height: 480px;
     margin: 0 auto;
   }
+
+  .slide {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
 }
