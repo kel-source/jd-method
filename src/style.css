@@ -125,6 +125,11 @@ footer {
     opacity: 0;
   }
 }
+@media (min-height: 750px) {
+  .page-title {
+    margin-top: 135px;
+  }
+}
 @media (min-width: 992px) {
   .hero h1 {
     font-size: 120px;
