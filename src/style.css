@@ -2,6 +2,7 @@
   --heading-font: "Fjalla One", sans-serif;
   --content-font: "Roboto Condensed", sans-serif;
   --primary-color: white;
+  --accent-color: #ff9a37;
 }
 
 html {
@@ -116,7 +117,7 @@ footer {
 }
 .link,
 .link:hover {
-  color: #ff9a37;
+  color: var(--accent-color);
 }
 
 .open-source-link,
