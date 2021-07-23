@@ -110,6 +110,11 @@ footer {
   line-height: 5px;
 }
 
+.gdd-download,
+.gdd-download:hover {
+  color: #ff9a37;
+}
+
 .open-source-link,
 .open-source-link:hover,
 .kelcodes-link,
