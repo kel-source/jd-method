@@ -110,6 +110,10 @@ footer {
   line-height: 5px;
 }
 
+.gdd-download-icon,
+.gdd-download-icon:hover {
+  text-decoration: none;
+}
 .gdd-download,
 .gdd-download:hover {
   color: #ff9a37;
